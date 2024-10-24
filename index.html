@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Day Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode"> <!-- Mặc định là chế độ tối -->
+    <div class="container">
+        <!-- Nút chuyển đổi chế độ sáng/tối -->
+        <button id="theme-toggle" class="theme-toggle">Light Mode</button>
+
+        <!-- Avatar Section -->
+        <div class="avatar-box">
+            <div class="avatar-info">
+                <img src="https://img.upanh.tv/2024/10/24/SsvLG8j---Imgur.png" alt="Hiếu Nè" class="avatar">
+                <p class="name">Hiếu Naoki</p>
+            </div>
+            <img src="https://png.pngtree.com/png-vector/20220428/ourmid/pngtree-smooth-glossy-heart-vector-file-ai-and-png-png-image_4557871.png" alt="Heart Icon" class="heart-icon">
+            <div class="avatar-info">
+                <img src="https://i.upanh.org/2024/10/24/46466e3f770ef1abc100.png" alt="Hân Nè" class="avatar">
+                <p class="name">Hân Xinh Gái</p>
+            </div>
+        </div>
+
+        <!-- Love Days Counter -->
+        <div class="counter-box">
+            <h1 class="title">Đếm Ngày Đã Có Nhau</h1>
+            <p>Chúng Ta Đã Bên Nhau Suốt</p>
+            <div id="counter" class="days-count">0</div>
+            <p>Day ♡</p>
+            <p id="time-details"></p>
+        </div>
+
+        <!-- Time Counter -->
+        <div class="time-box">
+            <h2>Current Time</h2> <!-- Hiển thị giờ hiện tại -->
+            <div id="current-time" class="time-count">00:00:00</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
