@@ -12,7 +12,7 @@ function calculateDaysAndTime() {
 
     // Cập nhật số ngày yêu và thời gian cụ thể
     document.getElementById("counter").innerText = `${days}`;
-    document.getElementById("time-details").innerText = `${days} Ngày : ${hours} Giờ : ${minutes} Phút \n > 20 Tuổi `;
+    document.getElementById("time-details").innerText = `${days} Ngày : ${hours} Giờ : ${minutes} Phút \n 18+ `;
 }
 
 // Function to display the current time
