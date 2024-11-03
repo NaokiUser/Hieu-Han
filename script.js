@@ -1,5 +1,5 @@
 // Set the date when the relationship started
-const startDate = new Date("2024-05-09");
+const startDate = new Date("2006-09-12");
 
 // Function to calculate days and time together
 function calculateDaysAndTime() {
